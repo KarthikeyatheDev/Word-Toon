@@ -1,0 +1,33 @@
+.layout-selector {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.layout-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.layout-options button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: linear-gradient(to right, #f2f2f2, #e6e6e6);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.layout-options button:hover {
+  background: linear-gradient(to right, #9face6, #74ebd5);
+  color: white;
+  border-color: #74ebd5;
+}
+
+.layout-options .selected {
+  background: linear-gradient(to right, #9face6, #74ebd5);
+  color: white;
+  border-color: #74ebd5;
+}

@@ -1,0 +1,117 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1e1e2f, #2a2a40);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.App {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #6366f1, #a21caf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  resize: vertical;
+  background-color: #2e2e42;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+select {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+select:hover {
+  transform: scale(1.05);
+}
+
+button {
+  margin: 1rem 0.5rem;
+  padding: 0.9rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #6366f1, #a21caf);
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s cubic-bezier(.4,2,.6,1);
+  box-shadow: 0 6px 24px rgba(99,102,241,0.18);
+}
+
+button:hover {
+  transform: scale(1.07) translateY(-2px);
+  box-shadow: 0 10px 32px rgba(99,102,241,0.28);
+  background: linear-gradient(90deg, #a21caf, #6366f1);
+}
+
+img {
+  width: 100%;
+  border-radius: 18px;
+  margin-bottom: 0.5rem;
+  border: 3px solid #a21caf;
+  box-shadow: 0 0 32px rgba(99,102,241,0.18);
+}
+
+#comic-page {
+  margin-top: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+p {
+  background: rgba(99,102,241,0.07);
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #22223b;
+}
