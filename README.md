@@ -25,7 +25,8 @@ WordToon is an AI-powered comic creation web application that lets users input a
 
 ## 📸 Preview
 
-![WordToon Screenshot](https://your-image-link-if-hosted.png)
+![WordToon Screenshot](https://github.com/user-attachments/assets/b02c415e-829e-44fb-9af4-dab1c28a6669)
+
 
 ---
 
